@@ -1,0 +1,14 @@
+Téléchargement de boost : 
+
+
+https://waqarrashid33.blogspot.com/2017/12/installing-boost-166-in-ubuntu-1604.html
+
+
+
+Compilation for the server :  
+
+g++ serverBoost.cpp -std=gnu++11 -lboost_system -lboost_thread -lboost_timer -pthread -o server
+
+Compilatoin for the client :    
+
+g++ clientBoost.cpp -std=gnu++11 -lboost_system -lboost_thread -lboost_timer -pthread -o client

@@ -1,0 +1,1 @@
+cd build && make && cp bin/babel_client ../
